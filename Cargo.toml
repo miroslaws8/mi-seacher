@@ -1,0 +1,24 @@
+[package]
+name = "mi_terminal"
+version = "0.1.0"
+edition = "2021"
+authors=["Myroslav itsimiro@gmail.com"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/you/grrs"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
+anyhow = "1.0"
+indicatif = "0.16.2"
+
+[dev-dependencies]
+assert_cmd = "2.0"
+predicates = "2.1"
+assert_fs = "1.0"
