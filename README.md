@@ -1,1 +1,5 @@
-# mi-seacher
+# Misearch
+
+```
+misearch --path <PATH> <PATTERN>
+```
